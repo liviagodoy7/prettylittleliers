@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretty Little Liars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            color: #333;
+        }
+        .character {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pretty Little Liars</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#personagens">Personagens</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre a Série</h2>
+            <p>Pretty Little Liars é uma série de televisão americana que segue a vida de quatro garotas cujos segredos começam a vir à tona após o desaparecimento de sua amiga Alison. A série explora temas de amizade, amor, traição e mistério.</p>
+        </section>
+        <section id="personagens">
+            <h2>Personagens Principais</h2>
+            <div class="character">
+                <h3>Aria Montgomery</h3>
+                <p>Aria é uma das protagonistas da série, conhecida por seu estilo único e sua paixão pela arte.</p>
+            </div>
+            <div class="character">
+                <h3>Hanna Marin</h3>
+                <p>Hanna é a fashionista do grupo, que luta contra problemas de autoestima e imagem.</p>
+            </div>
+            <div class="character">
+                <h3>Emily Fields</h3>
+                <p>Emily é a atleta do grupo e enfrenta desafios relacionados à sua sexualidade.</p>
+            </div>
+            <div class="character">
+                <h3>Spencer Hastings</h3>
+                <p>Spencer é a mais estudiosa do grupo, sempre buscando a verdade por trás dos mistérios.</p>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para mais informações, entre em contato pelo e-mail: contato@pll.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Pretty Little Liars Fan Page</p>
+    </footer>
+    <script>
+        // Exemplo de um script simples
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    alert('Você clicou em ' + this.textContent);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
